@@ -1,0 +1,19 @@
+CREATE TABLE TEACHERS (
+    Id NUMBER PRIMARY KEY,
+    Name VARCHAR2(50),
+    DEPT_Name VARCHAR2(50),
+    Qualification VARCHAR2(100),
+    Experience NUMBER
+);
+INSERT INTO TEACHERS (Id, Name, DEPT_Name, Qualification, Experience)VALUES
+(1, 'Phool', 'BSCS', 'MPhil', 3);
+INSERT INTO TEACHERS (Id, Name, DEPT_Name, Qualification, Experience)VALUES
+(2, 'Ahmad', 'BS-Zoology', 'MS', 5);
+INSERT INTO TEACHERS (Id, Name, DEPT_Name, Qualification, Experience)VALUES
+(3, 'Fatima', 'BSIT', 'BS', 1);
+INSERT INTO TEACHERS (Id, Name, DEPT_Name, Qualification, Experience)VALUES
+(4, 'DR.Yaseen', 'BS-STAT', 'PHD', 4);
+INSERT INTO TEACHERS (Id, Name, DEPT_Name, Qualification, Experience)VALUES
+(5, 'Amna', 'BSSE', 'MPhil', 2);
+
+SELECT * FROM TEACHERS;
